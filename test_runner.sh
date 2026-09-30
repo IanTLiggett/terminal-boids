@@ -1,4 +1,4 @@
 #!/bin/bash
 
-g++ *.cpp -o app
-./app
+g++ -std=c++17 -Wall -Wextra -pedantic tests/boids_tests.cpp -o boids_tests
+./boids_tests
